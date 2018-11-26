@@ -1,0 +1,32 @@
+{
+  "name": "project-react",
+  "version": "1.0.0",
+  "description": "aplication-test",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack --config webpack.config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ivamgf/project-react-V1.0.git"
+  },
+  "keywords": [
+    "react",
+    "webpack"
+  ],
+  "author": "Ivam Galvao Filho",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ivamgf/project-react-V1.0/issues"
+  },
+  "homepage": "https://github.com/ivamgf/project-react-V1.0#readme",
+  "devDependencies": {
+    "webpack": "^4.26.1",
+    "webpack-cli": "^3.1.2",
+    "webpack-dev-server": "^3.1.10"
+  },
+  "dependencies": {
+    "lodash": "^4.17.11"
+  }
+}
